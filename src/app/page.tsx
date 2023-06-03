@@ -26,7 +26,7 @@ const Home = () => {
         <p>Kleinkaap</p>
 
         <Button url='https://goo.gl/maps/TLpL7cjfaZTaa4AX6' className={styles.button}>
-          Directions
+          DIRECTIONS
         </Button>
       </Section>
 

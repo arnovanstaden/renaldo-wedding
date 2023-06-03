@@ -1,7 +1,14 @@
 import '@styles/global.scss'
-import { Inter } from 'next/font/google'
+import { Bodoni_Moda } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Bodoni_Moda(
+  {
+    subsets: ['latin'],
+    style: ['normal', 'italic'],
+    display: 'swap',
+    variable: '--font',
+  }
+);
 
 export const metadata = {
   title: 'Renaldo & Maryanke',

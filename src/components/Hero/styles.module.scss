@@ -24,5 +24,13 @@
     position: relative;
     text-align: center;
     padding: 0 1rem;
+
+    h1 {
+      font-weight: 600;
+    }
+
+    .button {
+      margin-top: 2rem;
+    }
   }
 }

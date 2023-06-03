@@ -2,6 +2,8 @@
 import Hero from '@components/Hero';
 import Section from '@components/Section';
 import styles from './styles.module.scss';
+import RSVP from '@components/RSVP';
+import Button from '@components/Button';
 
 const Home = () => {
   return (
@@ -10,13 +12,17 @@ const Home = () => {
       <Section
         image='/images/sections/info.jpeg'
         heading='The Day'
+        className={styles.info}
       >
+        <h3>Date</h3>
+        <p>Sunday 24 April 14:00</p>
 
         <h3>Venue</h3>
         <p>Kleinkaap</p>
 
-        <h3>Date</h3>
-        <p>14:00 | Sunday 24 April</p>
+        <Button url='https://goo.gl/maps/TLpL7cjfaZTaa4AX6' className={styles.button}>
+          Directions
+        </Button>
 
 
       </Section>
@@ -153,7 +159,7 @@ const Home = () => {
         heading='RSVP'
         alignRight
       >
-        blah
+        <RSVP />
       </Section>
     </main>
   )

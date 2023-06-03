@@ -1,0 +1,41 @@
+.RSVP {
+  display: flex;
+  min-width: 80%;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
+  input {
+    text-align: center;
+    padding: 0.75rem 1rem;
+    border: 1px solid black;
+    width: 100%;
+    font-family: var(--font);
+  }
+
+  >p {
+    margin-bottom: 0;
+  }
+
+  .radio {
+    display: flex;
+    align-items: center;
+
+    >div {
+      display: flex;
+      align-items: center;
+      gap: 0.25rem;
+    }
+  }
+
+  button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+}

@@ -2,12 +2,18 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   width: 100%;
   overflow-x: hidden;
+  font-display: swap;
+  font-family: var(--font);
 }
 
 /* Scrollbar */
@@ -31,4 +37,17 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font);
+}
+
+a {
+  text-decoration: none;
 }

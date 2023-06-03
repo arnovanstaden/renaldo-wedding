@@ -1,0 +1,28 @@
+.Hero {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    object-fit: cover;
+    object-position: center center;
+    position: relative;
+    z-index: -1;
+  }
+
+  .overlay {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(white, 0.5);
+  }
+
+  .text {
+    position: relative;
+    text-align: center;
+    padding: 0 1rem;
+  }
+}

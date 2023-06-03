@@ -7,12 +7,14 @@ interface IProps {
   alignRight?: boolean
   image: string;
   heading: string;
+  className?: string;
 }
 
 const Section = (props: IProps): JSX.Element | null => {
   const classes = classNames(
     styles.Section,
     props.alignRight && styles.alignRight,
+    props.className
   );
 
   return (

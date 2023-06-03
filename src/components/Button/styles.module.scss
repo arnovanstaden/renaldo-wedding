@@ -8,4 +8,11 @@
   font-weight: 560;
   font-family: var(--font);
   letter-spacing: 0.5px;
+  border: 1px solid black;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    background-color: transparent;
+    color: black;
+  }
 }

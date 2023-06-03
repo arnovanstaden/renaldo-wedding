@@ -13,11 +13,14 @@ const Home = () => {
 
       <Section
         image='/images/sections/info.jpeg'
-        heading='The Day'
+        heading='The Special Day'
         className={styles.info}
       >
         <h3>Date</h3>
-        <p>Sunday 24 April 14:00</p>
+        <p>Sunday 24 April 2024 </p>
+
+        <h3>Time</h3>
+        <p>14:00</p>
 
         <h3>Venue</h3>
         <p>Kleinkaap</p>

@@ -14,7 +14,7 @@ const Hero = (): JSX.Element | null => {
       <div className={styles.overlay} />
       <div className={styles.text}>
         <h1>Renaldo & Maryanke</h1>
-        <p>Join us for our special day</p>
+        <h5>21 | 04 | 2024</h5>
         <Button url='#rsvp' className={styles.button}>
           RSVP
         </Button>

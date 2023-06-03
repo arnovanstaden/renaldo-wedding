@@ -8,6 +8,7 @@ interface IProps {
   image: string;
   heading: string;
   className?: string;
+  id?: string;
 }
 
 const Section = (props: IProps): JSX.Element | null => {
@@ -18,7 +19,7 @@ const Section = (props: IProps): JSX.Element | null => {
   );
 
   return (
-    <div className={classes}>
+    <section className={classes} id={props.id}>
       <div className={styles.image}>
         <Image
           fill
@@ -30,7 +31,7 @@ const Section = (props: IProps): JSX.Element | null => {
         <h1>{props.heading}</h1>
         {props.children}
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -12,7 +12,7 @@ const RSVP = (): JSX.Element | null => {
   }
 
   return (
-    <form className={styles.RSVP} id="rsvp" onSubmit={handleSubmit}>
+    <form className={styles.RSVP} onSubmit={handleSubmit}>
       <input type="text" placeholder='Name & Surname' required autoComplete='name' />
       <input type="email" placeholder='Email' required autoComplete='email' />
       <p>Do you have any Dietary Restrictions?</p>

@@ -4,11 +4,13 @@ import Section from '@components/Section';
 import styles from './styles.module.scss';
 import RSVP from '@components/RSVP';
 import Button from '@components/Button';
+import FAQ from '@components/FAQ';
 
 const Home = () => {
   return (
     <main className={styles.Home}>
       <Hero />
+
       <Section
         image='/images/sections/info.jpeg'
         heading='The Day'
@@ -23,9 +25,8 @@ const Home = () => {
         <Button url='https://goo.gl/maps/TLpL7cjfaZTaa4AX6' className={styles.button}>
           Directions
         </Button>
-
-
       </Section>
+
       <Section
         image='/images/sections/mary.jpeg'
         heading="Mary's Story"
@@ -73,6 +74,7 @@ const Home = () => {
           'n Lied en 'n lag op die huweliksdag, <br />
           en 'n glasie omhoog op die mooiste paar...</p> <br />
       </Section>
+
       <Section
         image='/images/sections/renaldo.jpeg'
         heading="Renaldo's Story"
@@ -100,6 +102,7 @@ const Home = () => {
           I’m open to your love , beyond time or eternal scars. <br />
         </p>
       </Section>
+
       <Section
         image='/images/sections/party.jpeg'
         heading='The Wedding Party'
@@ -134,6 +137,7 @@ const Home = () => {
           <li>Daniel Bredenkamp</li>
         </ul>
       </Section>
+
       <Section
         image='/images/sections/speeches.jpeg'
         heading='The Wedding Party'
@@ -154,12 +158,21 @@ const Home = () => {
         <li>Martinette Stander</li>
         <li>Voden Fourie</li>
       </Section>
+
       <Section
         image='/images/sections/rsvp.jpeg'
         heading='RSVP'
         alignRight
+        id="rsvp"
       >
         <RSVP />
+      </Section>
+
+      <Section
+        image='/images/sections/faq.jpeg'
+        heading='Frequently Asked Questions'
+      >
+        <FAQ />
       </Section>
     </main>
   )

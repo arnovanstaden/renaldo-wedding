@@ -1,0 +1,46 @@
+.FAQ {
+  width: 100%;
+
+  .Accordion {
+    margin-bottom: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .question {
+      h4 {
+        margin: 0;
+        font-size: 1.1rem;
+        cursor: pointer;
+      }
+
+      .divider {
+        width: 100%;
+        display: block;
+        height: 0.25px;
+        background-color: black;
+        margin: 0.5rem 0;
+      }
+    }
+
+    .answer {
+      height: 0;
+      overflow: hidden;
+      width: 100%;
+      max-width: 80%;
+
+      p {
+        font-style: italic;
+        margin: 0;
+        transition: 0.3s ease-in-out;
+        margin: 0 auto;
+      }
+    }
+
+    &.open .answer {
+      height: auto;
+      margin-bottom: 0.5rem;
+    }
+  }
+}

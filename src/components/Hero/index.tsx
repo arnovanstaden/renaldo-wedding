@@ -1,20 +1,27 @@
 import Image from 'next/image';
 import styles from './styles.module.scss';
 import Button from '@components/Button';
+import { useState } from 'react';
+import Timer from './Timer';
 
 const Hero = (): JSX.Element | null => {
+
+
+
   return (
     <div className={styles.Hero}>
-      <Image
-        fill
-        priority
-        src="/images/hero.jpeg"
-        alt="Hero"
-      />
+      <div className={styles.image}>
+        <Image
+          fill
+          priority
+          src="/images/hero.jpeg"
+          alt="Hero"
+        />
+      </div>
       <div className={styles.overlay} />
       <div className={styles.text}>
         <h1>Renaldo & Maryanke</h1>
-        <h5>21 | 04 | 2024</h5>
+        <Timer />
         <Button url='#rsvp' className={styles.button}>
           RSVP
         </Button>

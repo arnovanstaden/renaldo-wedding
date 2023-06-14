@@ -16,6 +16,7 @@ const Hero = (): JSX.Element | null => {
           priority
           src="/images/hero.jpeg"
           alt="Hero"
+          quality={100}
         />
       </div>
       <div className={styles.overlay} />

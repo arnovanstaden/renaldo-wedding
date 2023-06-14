@@ -12,7 +12,7 @@ const Home = () => {
       <Hero />
 
       <Section
-        image='/images/sections/info.jpeg'
+        image='/images/sections/info.jpg'
         heading='The Special Day'
         className={styles.info}
       >
@@ -31,7 +31,7 @@ const Home = () => {
       </Section>
 
       <Section
-        image='/images/sections/mary.jpeg'
+        image='/images/sections/mary.jpg'
         heading="Mary's Story"
         alignRight
         className={styles.story}
@@ -79,7 +79,7 @@ const Home = () => {
       </Section>
 
       <Section
-        image='/images/sections/renaldo.jpeg'
+        image='/images/sections/renaldo.jpg'
         heading="Renaldo's Story"
         className={styles.story}
       >
@@ -107,7 +107,7 @@ const Home = () => {
       </Section>
 
       <Section
-        image='/images/sections/party.jpeg'
+        image='/images/sections/party.jpg'
         heading='The Wedding Party'
         alignRight
       >
@@ -142,7 +142,7 @@ const Home = () => {
       </Section>
 
       <Section
-        image='/images/sections/speeches.jpeg'
+        image='/images/sections/speeches.jpg'
         heading='The Wedding Party'
       >
         <h3>Escorting Renaldo</h3>
@@ -163,7 +163,7 @@ const Home = () => {
       </Section>
 
       <Section
-        image='/images/sections/rsvp.jpeg'
+        image='/images/sections/rsvp.jpg'
         heading='RSVP'
         alignRight
         id="rsvp"
@@ -172,7 +172,7 @@ const Home = () => {
       </Section>
 
       <Section
-        image='/images/sections/faq.jpeg'
+        image='/images/sections/faq.jpg'
         heading='Frequently Asked Questions'
       >
         <FAQ />

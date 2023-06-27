@@ -38,21 +38,6 @@ const FAQ = (): JSX.Element | null => {
   return (
     <div className={styles.FAQ}>
       <br />
-      {/* <Accordion
-        question="Do you have a wedding gift registry?"
-        answer={(
-          <div>
-            <p>No, that is a bit old fashioned for us. We'd be more than happy with a contribution, which you can transfer here:</p>
-            <br />
-            <p>
-              <b>Bank:</b>  Capitec <br />
-              <b>Account Type:</b> Savings <br />
-              <b>Account Name:</b> Maryanke <br />
-              <b>Account Number:</b> 1496253823 <br />
-            </p>
-          </div>
-        )}
-      /> */}
       <Accordion
         question="Where can I RSVP?"
         answer={<p>You can RSVP <a href='#rsvp' style={{ textDecoration: 'underline', display: 'inline' }}>here</a>.</p>}

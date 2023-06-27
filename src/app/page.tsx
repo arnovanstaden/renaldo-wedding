@@ -172,8 +172,24 @@ const Home = () => {
       </Section>
 
       <Section
+        image='/images/sections/gifts.jpg'
+        heading='Gifts'
+      >
+        <p>As we begin this new chapter in our lives, we feel incredibly blessed to have the love and support of our cherished family and friends.</p>
+        <p>We'd be more than happy with a contribution, which you can transfer here:</p>
+        <br />
+        <p>
+          <b>Bank:</b>  Capitec <br />
+          <b>Account Type:</b> Savings <br />
+          <b>Account Name:</b> Maryanke <br />
+          <b>Account Number:</b> 1496253823 <br />
+        </p>
+      </Section>
+
+      <Section
         image='/images/sections/faq.jpg'
         heading='Frequently Asked Questions'
+        alignRight
       >
         <FAQ />
       </Section>

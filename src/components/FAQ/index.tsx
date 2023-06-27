@@ -38,7 +38,7 @@ const FAQ = (): JSX.Element | null => {
   return (
     <div className={styles.FAQ}>
       <br />
-      <Accordion
+      {/* <Accordion
         question="Do you have a wedding gift registry?"
         answer={(
           <div>
@@ -52,10 +52,34 @@ const FAQ = (): JSX.Element | null => {
             </p>
           </div>
         )}
-      />
+      /> */}
       <Accordion
         question="Where can I RSVP?"
-        answer={<p>You can RSVP <a href='#rsvp' style={{ textDecoration: 'underline', display: 'inline' }}>here</a></p>}
+        answer={<p>You can RSVP <a href='#rsvp' style={{ textDecoration: 'underline', display: 'inline' }}>here</a>.</p>}
+      />
+      <Accordion
+        question="When is the RSVP deadline?"
+        answer={<p>31 January 2024</p>}
+      />
+      <Accordion
+        question="Is there a dress code?"
+        answer={<p>The dress code for the wedding is formal "ALL BLACK".</p>}
+      />
+      <Accordion
+        question="Is the wedding indoors or outdoors?"
+        answer={<p>Both the reception and the ceremony will be held indoors.</p>}
+      />
+      <Accordion
+        question="Are children invited?"
+        answer={<p>We kindly request an adult-only celebration. We appreciate your understanding.</p>}
+      />
+      <Accordion
+        question="Can we take photos?"
+        answer={<p>Please refrain from taking photos during the ceremony or reception. Between these two events it's ok.</p>}
+      />
+      <Accordion
+        question="What if I can't make it?"
+        answer={<p>If you cancel a week before the wedding, please note that we'll unfortunately have to send you a bill.</p>}
       />
     </div>
   );

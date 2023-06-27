@@ -7,6 +7,7 @@ import Button from '@components/Button';
 
 const RSVP = (): JSX.Element | null => {
   const [dietaryYes, setDietaryYes] = useState(false);
+  const [plusOneYes, setPlusOneYes] = useState(false);
   const [submitted, setSubmitted] = useState(false);
 
   useEffect(() => {
@@ -40,14 +41,37 @@ const RSVP = (): JSX.Element | null => {
     <form className={styles.RSVP} onSubmit={handleSubmit} action="">
       <input type="text" placeholder='Name & Surname' name="Full Name" required autoComplete='name' />
       <input type="email" placeholder='Email' name="Email" required autoComplete='email' />
-      <p>Do you have any Dietary Restrictions?</p>
+      <hr />
+
+      <p>Do you have any dietary restrictions?</p>
       <div className={styles.radio}>
+        <div>
+          <input type="radio" value="No" onChange={() => setDietaryYes(false)} checked={!dietaryYes} />
+          <label htmlFor="dietary_no">No</label>
+        </div>
         <div>
           <input type="radio" value="Yes" onChange={() => setDietaryYes(true)} checked={dietaryYes} />
           <label htmlFor="dietary_yes">Yes</label>
         </div>
       </div>
       {dietaryYes && <input type="text" placeholder='Please specify you dietary Requirements' name="Note: Dietary Requirements" required={dietaryYes} />}
+      <hr />
+      <p>Are you bringing a plus one?</p>
+      <div className={styles.radio}>
+        <div>
+          <input type="radio" value="No" onChange={() => setPlusOneYes(false)} checked={!plusOneYes} />
+          <label htmlFor="dietary_no">No</label>
+        </div>
+        <div>
+          <input type="radio" value="Yes" onChange={() => setPlusOneYes(true)} checked={plusOneYes} />
+          <label htmlFor="dietary_yes">Yes</label>
+        </div>
+      </div>
+      {plusOneYes && <input type="text" placeholder='Name of your plus one' name="Note: Plus One Name" required={plusOneYes} />}
+      <hr />
+
+      <p>Do you have a special song request for the DJ?</p>
+      <input type="text" placeholder='Enter the song name' name="Song Request" />
       <Button className={styles.button}>
         SUBMIT
       </Button>

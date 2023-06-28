@@ -114,7 +114,7 @@ const Home = () => {
         <h3>Groomsmen</h3>
         <ul>
           <li>Voden Fourie (Best man)</li>
-          <li>Tiaan van der Walt (Seremoniemeester)</li>
+          <li>Tiaan van der Walt (Master of Ceremonies)</li>
           <li>Ross Laubscher</li>
           <li>Willem van der Walt</li>
           <li>Mark McCallum</li>
@@ -122,7 +122,7 @@ const Home = () => {
         <br />
         <h3>Bridesmaids</h3>
         <ul>
-          <li>Martinette Stander (Hoofstrooi)</li>
+          <li>Martinette Stander (Maid of Honour)</li>
           <li>Suné van der Walt</li>
           <li>Angelique van der Walt</li>
           <li>Izaan Maritz</li>

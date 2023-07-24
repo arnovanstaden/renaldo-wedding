@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 
 const getTime = () => {
-  const countDownDate = new Date("Apr 24, 2024 14:00:00").getTime();
+  const countDownDate = new Date("Apr 21, 2024 14:00:00").getTime();
 
   // Get today's date and time
   const now = new Date().getTime();

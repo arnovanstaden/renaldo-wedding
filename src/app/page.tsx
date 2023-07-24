@@ -17,7 +17,7 @@ const Home = () => {
         className={styles.info}
       >
         <h3>Date</h3>
-        <p>Sunday 24 April 2024 </p>
+        <p>Sunday 21 April 2024 </p>
 
         <h3>Time</h3>
         <p>14:00</p>

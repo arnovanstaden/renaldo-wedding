@@ -116,8 +116,8 @@ const Home = () => {
           <li>Voden Fourie (Best man)</li>
           <li>Tiaan van der Walt (Master of Ceremonies)</li>
           <li>Ross Laubscher</li>
-          <li>Willem van der Walt</li>
-          <li>Mark McCallum</li>
+          <li>Roulin Mentoor</li>
+          <li>Lebang Thloaele</li>
         </ul>
         <br />
         <h3>Bridesmaids</h3>
@@ -126,13 +126,13 @@ const Home = () => {
           <li>Suné van der Walt</li>
           <li>Angelique van der Walt</li>
           <li>Izaan Maritz</li>
-          <li>René Swart</li>
+          <li>Sankia Odendaal</li>
         </ul>
         <br />
         <h3>Flower girls</h3>
         <ul>
-          <li>Sankia Odendaal</li>
-          <li>Prianka Jonck</li>
+          <li>Angelique van der Walt</li>
+          <li>Suné van der Walt</li>
         </ul>
         <br />
         <h3>Ring bearer</h3>
@@ -145,9 +145,6 @@ const Home = () => {
         image='/images/sections/speeches.jpg'
         heading='The Wedding Party'
       >
-        <h3>Escorting Renaldo</h3>
-        <li>Mariette Laubscher</li>
-        <br />
         <h3>Escorting Maryanke</h3>
         <li>Wim Pols</li>
         <br />
@@ -160,6 +157,7 @@ const Home = () => {
         <li>Suné van der Walt</li>
         <li>Martinette Stander</li>
         <li>Voden Fourie</li>
+        <li>Tiaan van der Walt</li>
       </Section>
 
       <Section

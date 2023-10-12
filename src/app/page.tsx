@@ -102,8 +102,8 @@ const Home = () => {
           <br /> <br />
           We seal under the stars. <br />
           As we bask in this moment's glow, <br />
-          Our love story's script will forever to grow. <br />
           I’m open to your love , beyond time or eternal scars. <br />
+          Our love story's script will forever to grow. <br />
         </p>
       </Section>
 

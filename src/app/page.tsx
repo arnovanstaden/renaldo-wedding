@@ -37,45 +37,46 @@ const Home = () => {
         className={styles.story}
       >
         <p>
-          Ek dink nog aan die dae <br />
-          nou reeds lank verby <br />
-          toe Renaldo as 'n P.N.H.S leier <br />
-          vir die groentjie sê in watter ry om te bly. <br />
-          <br /> <br />
-          My hart klop 'n bietjie vinniger, <br />
-          en my bene raak lam. <br />
-          Maar ongelukkig <br />
-          is hy net vuur en vlam <br />
-          vir die ontgroening. <br />
-          <br /> <br />
-          Die tyd het vinnig verbygegaan <br />
-          en die ongemaklike tienerlewe <br />
-          het in die vergeetboek beland. <br />
-          Skielik was daar 'n man, volmaak deur God gegewe. <br />
-          <br /> <br />
-          Renaldo het gekom <br />
-          en my lewe heeltemal verander. <br />
-          Hy benader my met liefde <br />
-          en uiterste sorg. <br />
-          In hierdie liefde vind ek geen valsheid - <br />
-          Net die mooiste melodie wat ons altyd sal nader. <br />
-          <br /> <br />
-          My hart het sy redes, <br />
-          Waarvan my brein niks verstaan, <br />
-          Maar sonder hom langs-my, <br />
-          Sal ek beslis vergaan. <br />
-          <br /> <br />
-          Die Jawoord is uitgespreek, <br />
-          Word saam met my oud, <br />
-          In die huwelikskuit. <br />
-          Die jare voor ons is vol goud. <br />
-          <br /> <br />
-          Hier seil ons nou, <br />
-          Hy is dié man wat die sleutel <br />
-          tot my hart besit. <br />
-          Ons twee is vir ewig bymekaar! <br />
-          'n Lied en 'n lag op die huweliksdag, <br />
-          en 'n glasie omhoog op die mooiste paar...</p> <br />
+          Ek dink nog aan die dae<br />
+          nou reeds lank verby<br />
+          toe Renaldo as 'n P.N.H.S leier<br />
+          vir die groentjie sê in watter ry om te bly.<br />
+          <br />
+          My hart klop 'n bietjie vinniger,<br />
+          en my bene raak lam.<br />
+          Maar ongelukkig<br />
+          is hy net vuur en vlam<br />
+          vir die ontgroening.<br />
+          <br />
+          Die tienerlewe het vinnig verbygegaan,<br />
+          en het in die vergeetboek beland.<br />
+          Skielik was daar 'n man,<br />
+          volmaak deur God se hand.<br />
+          <br />
+          Renaldo het verskyn<br />
+          en my lewe heeltemal laat skyn.<br />
+          Hy benader my met uiterste sorg<br />
+          en ek sal sy warm liefde altyd volg.<br />
+          In hierdie liefde vind ek geen valsheid -<br />
+          Net die mooiste melodie en waarheid.<br />
+          <br />
+          My hart het sy redes,<br />
+          Waarvan my brein niks verstaan,<br />
+          Maar sonder hom langs-my,<br />
+          Sal ek beslis vergaan.<br />
+          <br />
+          Die Jawoord is uitgespreek,<br />
+          Word saam met my oud,<br />
+          In die huwelikskuit.<br />
+          Die jare voor ons is vol goud.<br />
+          <br />
+          Hier seil ons nou,<br />
+          Hy is dié man wat die sleutel<br />
+          tot my hart besit.<br />
+          Ons twee is vir ewig bymekaar!<br />
+          'n Lied en 'n lag op die huweliksdag,<br />
+          en 'n glasie omhoog op die mooiste paar...<br />
+        </p>
       </Section>
 
       <Section

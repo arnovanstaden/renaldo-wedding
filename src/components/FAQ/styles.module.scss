@@ -43,4 +43,19 @@
       margin-bottom: 0.5rem;
     }
   }
+
+  .moreInfo {
+    margin-top: 1.5rem;
+    font-size: 15px;
+    max-width: 500px;
+    margin: 1.5rem auto 0;
+
+    .call {
+      margin-top: 1rem;
+
+      p {
+        font-weight: 600;
+      }
+    }
+  }
 }

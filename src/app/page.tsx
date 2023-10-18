@@ -20,7 +20,7 @@ const Home = () => {
         <p>Sunday 21 April 2024 </p>
 
         <h3>Time</h3>
-        <p>14:00</p>
+        <p>14:00 - 22:00</p>
 
         <h3>Venue</h3>
         <p>Kleinkaap</p>

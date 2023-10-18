@@ -54,9 +54,15 @@ const RSVP = (): JSX.Element | null => {
           <label htmlFor="dietary_yes">Yes</label>
         </div>
       </div>
+
       {dietaryYes && <input type="text" placeholder='Please specify you dietary Requirements' name="Note: Dietary Requirements" required={dietaryYes} />}
+
       <p>Do you have a special song request for the DJ?</p>
       <input type="text" placeholder='Enter the song name' name="Song Request" />
+
+      <p>Leave a note for Renaldo & Maryanke</p>
+      <input type="text" placeholder='Enter the song name' name="Note" />
+
       <Button className={styles.button}>
         SUBMIT
       </Button>

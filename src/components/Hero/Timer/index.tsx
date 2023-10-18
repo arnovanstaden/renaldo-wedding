@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import styles from '../styles.module.scss';
 
 const getTime = () => {
   const countDownDate = new Date("Apr 21, 2024 14:00:00").getTime();
@@ -21,16 +22,17 @@ const getTime = () => {
 }
 
 const Timer = (): JSX.Element | null => {
-  const [timer, setTimer] = useState(getTime());
+  const [timer, setTimer] = useState('');
 
   // Update the count down every 1 second
   useEffect(() => {
+    setTimer(getTime());
     setInterval(() => {
       setTimer(getTime());
     }, 1000);
   }, [])
 
-  return <h5>{timer}</h5>
+  return <h5 className={styles.timer}>{timer}</h5>
 };
 
 export default Timer;

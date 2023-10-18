@@ -23,9 +23,9 @@ const Section = (props: IProps): JSX.Element | null => {
       <div className={styles.image}>
         <Image
           fill
-          alt=""
+          alt="Wedding"
           src={props.image}
-          quality={95}
+          quality={100}
         />
       </div>
       <div className={styles.content}>

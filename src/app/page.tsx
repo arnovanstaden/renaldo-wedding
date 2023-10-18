@@ -5,6 +5,7 @@ import styles from './styles.module.scss';
 import RSVP from '@components/RSVP';
 import Button from '@components/Button';
 import FAQ from '@components/FAQ';
+import Timeline from '@components/Timeline';
 
 const Home = () => {
   return (
@@ -162,9 +163,18 @@ const Home = () => {
       </Section>
 
       <Section
+        image='/images/sections/program.jpeg'
+        heading='The Program'
+        alignRight
+        id="program"
+      >
+        <Timeline />
+      </Section>
+
+
+      <Section
         image='/images/sections/rsvp.jpg'
         heading='RSVP'
-        alignRight
         id="rsvp"
       >
         <RSVP />
@@ -173,6 +183,7 @@ const Home = () => {
       <Section
         image='/images/sections/gifts.jpg'
         heading='Gifts'
+        alignRight
       >
         <p>As we begin this new chapter in our lives, we feel incredibly blessed to have the love and support of our cherished family and friends.</p>
         <p>We'd be more than happy with a contribution, which you can transfer here:</p>
@@ -188,7 +199,6 @@ const Home = () => {
       <Section
         image='/images/sections/faq.jpg'
         heading='Frequently Asked Questions'
-        alignRight
       >
         <FAQ />
       </Section>

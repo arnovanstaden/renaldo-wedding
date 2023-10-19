@@ -61,7 +61,7 @@ const RSVP = (): JSX.Element | null => {
       <input type="text" placeholder='Enter the song name' name="Song Request" />
 
       <p>Leave a note for Renaldo & Maryanke</p>
-      <input type="text" placeholder='Enter the song name' name="Note" />
+      <input type="text" placeholder='Enter a note' name="Note" />
 
       <Button className={styles.button}>
         SUBMIT

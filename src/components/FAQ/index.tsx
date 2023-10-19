@@ -81,16 +81,19 @@ const FAQ = (): JSX.Element | null => {
         question="What if I can't make it?"
         answer={<p>If you cancel a week before the wedding, please note that we'll unfortunately have to send you a bill.</p>}
       />
+      <Accordion
+        question=" If I have any questions that have not been addressed here, who should I contact?"
+        answer={(
+          <div className={styles.moreInfo}>
+            <p>If there are any other questions regarding the wedding, please feel free to get in touch with Maryanke or Renaldo. We will be happy to assist you and answer any inquiries.</p>
 
-      <div className={styles.moreInfo}>
-        <p>  If I have any questions that have not been addressed here, who should I contact?</p>
-        <p>If there are any other questions regarding the wedding, please feel free to get in touch with Maryanke or Renaldo. We will be happy to assist you and answer any inquiries.</p>
-
-        <div className={styles.call}>
-          <p> Maryanke - <a href="tel:081 310 4180">081 310 4180</a></p>
-          <p> Renaldo - <a href="tel:064 518 1783">064 518 1783</a></p>
-        </div>
-      </div>
+            <div className={styles.call}>
+              <p> Maryanke - <a href="tel:081 310 4180">081 310 4180</a></p>
+              <p> Renaldo - <a href="tel:064 518 1783">064 518 1783</a></p>
+            </div>
+          </div>
+        )}
+      />
     </div>
   );
 };
